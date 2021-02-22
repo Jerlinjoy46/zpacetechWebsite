@@ -421,7 +421,7 @@
                </ol>
                <ol>
 
-                 <strong>Phone:</strong> +91 81398 48834 <br>
+                 <strong>Phone:</strong> +91   <br>
                </ol>
                <hr> 
                <ol>
@@ -434,8 +434,7 @@
                </ol>
                <ol>
 
-                 <!-- <strong>Web:</strong><a href="www.zpce4live.com">www.zpce4live.com</a>  -->
-               </ol>
+                                 </ol>
             </ul>
           </div>
         </div>
@@ -504,7 +503,7 @@
             <div class="form">
               
               <h4>Send us a message</h4>
-              <form action="" method="POST" role="form" class="contactForm">
+              <form action="https://script.google.com/macros/s/AKfycbzbpBfmxQpJSWF8bc7Ge3p7AGQfPJuXdrh5r-lgN0PJlyr1imFZI-yf/exec" method="POST" role="form" class="contactForm contact-form gform">
                 <div class="form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                   <div class="validation"></div>
@@ -521,15 +520,15 @@
                   <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                   <div class="validation"></div>
                 </div>
-
-                
-                <div class="text-center"><input type="submit" title="Send Message">Send Message</input></div>
-                <div id="sendmessage" style="display: none;">
-                  <h4>
-                    Your message has been sent. Thank you!
+                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+                <br><br>
+                <div style="display:none" class="thankyou_message">
+                  <!-- You can customize the thankyou message by editing the code below -->
+                  <h4 style="color:#1bb1dc"><em>Your message has been sent. Thank you!</em> 
                   </h4>
-                </div>
-                <div id="errormessage">"Error"</div>
+                 </div>
+                
+            
               </form>
             </div>
 
@@ -573,6 +572,7 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
-
+  <script data-cfasync="false" type="text/javascript"
+  src="js/submit.js"></script>
 </body>
 </html>
